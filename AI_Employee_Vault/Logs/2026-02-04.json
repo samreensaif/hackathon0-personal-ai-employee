@@ -214,5 +214,154 @@
       "category": "high_priority",
       "priority": "high"
     }
+  },
+  {
+    "timestamp": "2026-02-04T22:16:39.386285",
+    "action": "move_to_inbox",
+    "file": "task_20260204_221638.md",
+    "source": "root",
+    "destination": "Inbox"
+  },
+  {
+    "timestamp": "2026-02-04T22:16:39.412851",
+    "action": "move_to_needs_action",
+    "file": "task_20260204_221638.md",
+    "source": "Inbox",
+    "destination": "Needs_Action"
+  },
+  {
+    "timestamp": "2026-02-04T22:17:02.457607",
+    "action": "approve",
+    "file": "test_payment",
+    "source": "web",
+    "details": {
+      "source": "pending_approval"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:17:06.310077",
+    "action": "reject",
+    "file": "test_mixed",
+    "source": "web",
+    "details": {
+      "source": "pending_approval"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:17:18.109537",
+    "action": "approve",
+    "file": "test_email",
+    "source": "web",
+    "details": {
+      "source": "pending_approval"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:20:48.669891",
+    "action": "move_to_inbox",
+    "file": "task_20260204_222048.md",
+    "source": "root",
+    "destination": "Inbox"
+  },
+  {
+    "timestamp": "2026-02-04T22:20:48.679412",
+    "action": "move_to_needs_action",
+    "file": "task_20260204_222048.md",
+    "source": "Inbox",
+    "destination": "Needs_Action"
+  },
+  {
+    "timestamp": "2026-02-04T22:22:00.761031",
+    "action": "move_to_inbox",
+    "file": "task_20260204_222200.md",
+    "source": "root",
+    "destination": "Inbox"
+  },
+  {
+    "timestamp": "2026-02-04T22:22:00.761031",
+    "action": "move_to_needs_action",
+    "file": "task_20260204_222200.md",
+    "source": "Inbox",
+    "destination": "Needs_Action"
+  },
+  {
+    "timestamp": "2026-02-04T22:24:55.219841",
+    "action": "requires_approval",
+    "file": "task_20260204_221638.md",
+    "details": {
+      "plan": "task_20260204_221638_plan.md",
+      "category": "approval_required",
+      "priority": "high"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:24:55.219841",
+    "action": "requires_approval",
+    "file": "task_20260204_222048.md",
+    "details": {
+      "plan": "task_20260204_222048_plan.md",
+      "category": "approval_required",
+      "priority": "high"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:24:55.245816",
+    "action": "requires_approval",
+    "file": "task_20260204_222200.md",
+    "details": {
+      "plan": "task_20260204_222200_plan.md",
+      "category": "approval_required",
+      "priority": "normal"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:27:13.001947",
+    "action": "reject",
+    "file": "task_20260204_222200",
+    "source": "web",
+    "details": {
+      "source": "pending_approval"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:27:16.440251",
+    "action": "reject",
+    "file": "task_20260204_221638",
+    "source": "web",
+    "details": {
+      "source": "pending_approval"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:27:20.574549",
+    "action": "approve",
+    "file": "task_20260204_222048",
+    "source": "web",
+    "details": {
+      "source": "pending_approval"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:28:49.119821",
+    "action": "move_to_inbox",
+    "file": "task_20260204_222846.md",
+    "source": "root",
+    "destination": "Inbox"
+  },
+  {
+    "timestamp": "2026-02-04T22:28:49.140398",
+    "action": "move_to_needs_action",
+    "file": "task_20260204_222846.md",
+    "source": "Inbox",
+    "destination": "Needs_Action"
+  },
+  {
+    "timestamp": "2026-02-04T22:29:40.831732",
+    "action": "complete",
+    "file": "task_20260204_222846",
+    "source": "web",
+    "details": {
+      "source": "needs_action"
+    }
   }
 ]
