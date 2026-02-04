@@ -1,0 +1,40 @@
+[
+  {
+    "timestamp": "2026-02-04T20:17:13.412073",
+    "action": "move_to_inbox",
+    "file": "task1.md",
+    "source": "root",
+    "destination": "Inbox"
+  },
+  {
+    "timestamp": "2026-02-04T20:17:13.412073",
+    "action": "move_to_needs_action",
+    "file": "task1.md",
+    "source": "Inbox",
+    "destination": "Needs_Action"
+  },
+  {
+    "timestamp": "2026-02-04T20:17:56.266144",
+    "action": "create_plan",
+    "file": "task1.md",
+    "details": {
+      "plan": "task1_plan.md"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T20:24:28.864831",
+    "action": "create_plan",
+    "file": "task1.md",
+    "details": {
+      "plan": "task1_plan.md"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T20:29:21.329421",
+    "action": "create_plan",
+    "file": "task1.md",
+    "details": {
+      "plan": "task1_plan.md"
+    }
+  }
+]
