@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(python test_silver_tier.py:*)",
+      "Bash(python scripts/runner_silver.py:*)",
+      "Bash(python scripts/generate_briefing.py:*)",
+      "Bash(python launch_silver.py:*)"
+    ]
+  }
+}

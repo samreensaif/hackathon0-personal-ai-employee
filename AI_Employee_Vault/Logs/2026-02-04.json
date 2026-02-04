@@ -36,5 +36,183 @@
     "details": {
       "plan": "task1_plan.md"
     }
+  },
+  {
+    "timestamp": "2026-02-04T21:17:49.247454",
+    "action": "move_to_inbox",
+    "file": "test_email.md",
+    "source": "root",
+    "destination": "Inbox"
+  },
+  {
+    "timestamp": "2026-02-04T21:17:49.370581",
+    "action": "move_to_inbox",
+    "file": "test_info.md",
+    "source": "root",
+    "destination": "Inbox"
+  },
+  {
+    "timestamp": "2026-02-04T21:17:49.455362",
+    "action": "move_to_inbox",
+    "file": "test_mixed.md",
+    "source": "root",
+    "destination": "Inbox"
+  },
+  {
+    "timestamp": "2026-02-04T21:17:49.594375",
+    "action": "move_to_inbox",
+    "file": "test_normal.md",
+    "source": "root",
+    "destination": "Inbox"
+  },
+  {
+    "timestamp": "2026-02-04T21:17:49.671028",
+    "action": "move_to_inbox",
+    "file": "test_payment.md",
+    "source": "root",
+    "destination": "Inbox"
+  },
+  {
+    "timestamp": "2026-02-04T21:17:49.703296",
+    "action": "move_to_inbox",
+    "file": "test_reminder.md",
+    "source": "root",
+    "destination": "Inbox"
+  },
+  {
+    "timestamp": "2026-02-04T21:17:49.755332",
+    "action": "move_to_inbox",
+    "file": "test_urgent.md",
+    "source": "root",
+    "destination": "Inbox"
+  },
+  {
+    "timestamp": "2026-02-04T21:17:49.781005",
+    "action": "move_to_needs_action",
+    "file": "test_email.md",
+    "source": "Inbox",
+    "destination": "Needs_Action"
+  },
+  {
+    "timestamp": "2026-02-04T21:17:49.825681",
+    "action": "move_to_needs_action",
+    "file": "test_info.md",
+    "source": "Inbox",
+    "destination": "Needs_Action"
+  },
+  {
+    "timestamp": "2026-02-04T21:17:49.859491",
+    "action": "move_to_needs_action",
+    "file": "test_mixed.md",
+    "source": "Inbox",
+    "destination": "Needs_Action"
+  },
+  {
+    "timestamp": "2026-02-04T21:17:49.882844",
+    "action": "move_to_needs_action",
+    "file": "test_normal.md",
+    "source": "Inbox",
+    "destination": "Needs_Action"
+  },
+  {
+    "timestamp": "2026-02-04T21:17:49.915997",
+    "action": "move_to_needs_action",
+    "file": "test_payment.md",
+    "source": "Inbox",
+    "destination": "Needs_Action"
+  },
+  {
+    "timestamp": "2026-02-04T21:17:49.944515",
+    "action": "move_to_needs_action",
+    "file": "test_reminder.md",
+    "source": "Inbox",
+    "destination": "Needs_Action"
+  },
+  {
+    "timestamp": "2026-02-04T21:17:49.973919",
+    "action": "move_to_needs_action",
+    "file": "test_urgent.md",
+    "source": "Inbox",
+    "destination": "Needs_Action"
+  },
+  {
+    "timestamp": "2026-02-04T21:20:27.825041",
+    "action": "high_priority",
+    "file": "task1.md",
+    "details": {
+      "plan": "task1_plan.md",
+      "category": "high_priority",
+      "priority": "high"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T21:20:27.829042",
+    "action": "requires_approval",
+    "file": "test_email.md",
+    "details": {
+      "plan": "test_email_plan.md",
+      "category": "approval_required",
+      "priority": "normal"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T21:20:27.858552",
+    "action": "auto_complete",
+    "file": "test_info.md",
+    "details": {
+      "plan": "test_info_plan.md",
+      "category": "auto_complete",
+      "priority": "low"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T21:20:27.895101",
+    "action": "requires_approval",
+    "file": "test_mixed.md",
+    "details": {
+      "plan": "test_mixed_plan.md",
+      "category": "approval_required",
+      "priority": "high"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T21:20:27.939774",
+    "action": "high_priority",
+    "file": "test_normal.md",
+    "details": {
+      "plan": "test_normal_plan.md",
+      "category": "high_priority",
+      "priority": "high"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T21:20:27.965359",
+    "action": "requires_approval",
+    "file": "test_payment.md",
+    "details": {
+      "plan": "test_payment_plan.md",
+      "category": "approval_required",
+      "priority": "normal"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T21:20:27.994539",
+    "action": "auto_complete",
+    "file": "test_reminder.md",
+    "details": {
+      "plan": "test_reminder_plan.md",
+      "category": "auto_complete",
+      "priority": "low"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T21:20:28.024946",
+    "action": "high_priority",
+    "file": "test_urgent.md",
+    "details": {
+      "plan": "test_urgent_plan.md",
+      "category": "high_priority",
+      "priority": "high"
+    }
   }
 ]
