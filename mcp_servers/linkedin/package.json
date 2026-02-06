@@ -1,0 +1,25 @@
+{
+  "name": "linkedin-mcp-server",
+  "version": "1.0.0",
+  "description": "LinkedIn MCP Server for AI Employee - File-based draft system",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "mcp",
+    "linkedin",
+    "ai-employee",
+    "model-context-protocol"
+  ],
+  "author": "AI Employee System",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

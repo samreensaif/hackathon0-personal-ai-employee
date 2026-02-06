@@ -1,0 +1,34 @@
+[Unit]
+Description=AI Employee Watcher Manager
+Documentation=https://github.com/your-org/ai-employee
+After=network.target
+
+[Service]
+Type=simple
+User=your-username
+Group=your-group
+WorkingDirectory=/path/to/hackathon0-personal-ai-employee
+Environment="PYTHONUNBUFFERED=1"
+
+# Main command
+ExecStart=/usr/bin/python3 scripts/watcher_manager.py
+
+# Restart policy
+Restart=always
+RestartSec=10
+
+# Resource limits
+MemoryLimit=512M
+CPUQuota=50%
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=watcher-manager
+
+# Security
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

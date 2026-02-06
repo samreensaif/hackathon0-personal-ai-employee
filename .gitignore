@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+
+# Logs and runtime files
+*.log
+*.pid
+.watcher_manager.pid
+AI_Employee_Vault/Logs/*.json
+AI_Employee_Vault/nul
+
+# Sensitive configuration
+config/*.json
+!config/example_*.json
+mcp_config.json
+.mcp.json
+*.credentials.json
+token.json
+credentials/
+.env
+.env.local
+
+# Obsidian workspace (user-specific)
+AI_Employee_Vault/.obsidian/workspace.json
+AI_Employee_Vault/.obsidian/workspace-mobile.json
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Temporary/Test files
+AI_Employee_Vault/test_*.md
+AI_Employee_Vault/*/test_*.md
+test_*.py
+*.tmp
+
+# Reports and briefings (optional - uncomment if you don't want to track these)
+# AI_Employee_Vault/Reports/CEO_Briefing_*.md
+
+# Drafts and pending items (optional - uncomment if you don't want to track these)
+# AI_Employee_Vault/Drafts/
+# AI_Employee_Vault/Pending_Approval/

@@ -388,6 +388,16 @@ def process_tasks():
     print(f"[*] Normal Tasks:    {stats['normal']}")
     print("=" * 60)
 
+    # Update dashboard after processing
+    try:
+        from dashboard_updater import update_dashboard
+        print("\n[*] Updating dashboard...")
+        result = update_dashboard(trigger_event="task_processing_complete")
+        if result['success']:
+            print(f"[OK] Dashboard updated: {result['metrics']['total_tasks']} active tasks")
+    except Exception as e:
+        print(f"[!] Dashboard update failed: {e}")
+
 
 if __name__ == "__main__":
     process_tasks()

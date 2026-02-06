@@ -1,0 +1,16 @@
+# Gmail OAuth2 Setup Requirements
+#
+# Install with:
+#   pip install -r scripts/requirements-gmail.txt
+#
+# or install globally:
+#   pip install google-auth-oauthlib google-auth-httplib2 google-api-python-client
+
+# Google Auth library for OAuth2 flows
+google-auth-oauthlib>=1.2.0
+
+# Google Auth HTTP library for making authenticated requests
+google-auth-httplib2>=0.2.0
+
+# Google API Python Client for Gmail API
+google-api-python-client>=2.100.0
