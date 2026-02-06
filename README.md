@@ -25,6 +25,24 @@ Then run the watcher to see automatic processing in action!
 
 ---
 
+## ⚠️ Important: Frontend Folder
+
+> **Note:** The `frontend/` folder contains a Next.js web interface reserved for **future Gold Tier features**.
+>
+> **Silver Tier does NOT require or use the frontend.** All Silver Tier operations are:
+> - ✅ **File-based** - Tasks managed via Markdown files in vault folders
+> - ✅ **Command-line** - Scripts and watchers run via Python CLI
+> - ✅ **Dashboard** - Markdown file (`AI_Employee_Vault/Dashboard.md`)
+> - ✅ **Reports** - Generated as Markdown in `Reports/` folder
+>
+> The frontend will be integrated in a future Gold Tier release with:
+> - Web-based task management UI
+> - Real-time dashboard visualization
+> - Interactive approval workflows
+> - Analytics and reporting interface
+
+---
+
 ## 📚 Documentation
 
 - **[README_SILVER.md](README_SILVER.md)** - Complete Silver Tier documentation
